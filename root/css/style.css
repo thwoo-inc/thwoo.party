@@ -1,0 +1,112 @@
+* {
+  font-family: "M PLUS Rounded 1c";
+}
+
+.home {
+  padding: 16pt;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 8pt 0pt 8pt 0pt;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16pt;
+  font-weight: bold;
+  padding: 8pt 0pt 8pt 0pt;
+}
+
+h3 {
+  text-align: center;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.menu {
+  text-align: center;
+  text-decoration: underline;
+  padding: 2pt 0pt 2pt 0pt;
+}
+
+.back_home {
+  text-align: center;
+  font-size: 10pt;
+}
+
+.back_home_link {
+  color: #cccccc;
+}
+
+.message {
+  text-align: center;
+  padding: 8pt 0pt 8pt 0pt;
+}
+
+.strong {
+  color: #ff0000;
+}
+
+.note {
+  padding: 8pt;
+}
+
+.thumbnail {
+  padding-bottom: 8pt;
+}
+
+.download {
+  text-align: center;
+  text-decoration: underline;
+  padding: 8pt 0pt 8pt 0pt;
+}
+
+.form_btn {
+  border-radius: 5px;
+  background-color: #bd0011;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 8pt;
+  margin: 16pt 0pt 16pt 0pt;
+}
+
+.schedule {
+  padding: 8pt;
+}
+
+.price {
+  padding: 16pt;
+}
+
+.price_table {
+  width: 100%;
+  height: 300px;
+  font-size: 14pt;
+  padding: 8pt;
+}
+
+.price_data_key {
+  width: 35%;
+  text-align: right;
+  padding-right: 16pt;
+}
+
+.price_data_value {
+  width: 65%;
+  text-align: left;
+  padding-left: 16pt;
+}
+
+.corporate {
+  text-align: center;
+  padding: 0pt 0pt 8pt 0pt;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10pt;
+}
