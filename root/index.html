@@ -65,7 +65,7 @@
         </div>
         <div class="col-sm-12">
           <p class="message strong">
-            2020年9月 周南で無料体験会実施中！<br /><a href="/class_shunan.html">詳細はコチラ</a>
+            2020年11月 山口市での無料体験会受付中！<br /><a href="/class_yamaguchi.html">詳細はコチラ</a>
           </p>
         </div>
         <div class="menu col-sm-12 col-md-3">
@@ -75,7 +75,7 @@
           <a href="#trial">無料体験の紹介</a>
         </div>
         <div class="menu col-sm-12 col-md-2">
-          <a href="#school">防府校の紹介</a>
+          <a href="#school">各校の紹介</a>
         </div>
         <div class="menu col-sm-12 col-md-3">
           <a href="#teacher">先生の紹介</a>
@@ -120,9 +120,7 @@
         <div class="col-lg-12">
           <h2>無料体験の紹介</h2>
           <div class="message">
-            無料体験では2つのことをやります。<br />
-            Scratchでプログラミングの初歩を学ぶ。<br />
-            GMailで先生に感想のメールを書く。
+            無料体験ではScratchの基礎を学び、簡単なゲームを作ります。
           </div>
         </div>
         <div class="thumbnail col-sm-12">
@@ -149,16 +147,6 @@
             詰まった所は丁寧に解説します
           </div>
         </div>
-        <div class="col-sm-4 offset-sm-4 col-md-6 offset-md-3">
-          <button
-            class="form_btn"
-            type="button"
-            onclick="clickEntryTrialButton();"
-          >
-            防府校の無料体験を申し込む<br>
-            <span class="small">入力フォームが開きます</span>
-          </button>
-        </div>
       </div>
     </div>
 
@@ -167,40 +155,61 @@
     <div id="school" class="trial container">
       <div class="row">
         <div class="col-sm-12">
-          <h2>防府校の紹介</h2>
-          <div class="message col-md-12">
-            <p>
-              2019年11月開校！<br /><a href="/class_hofu.html">防府校の詳細はこちらで更新中</a>
-            </p>
+          <h2>各校の紹介</h2>
+        </div>
+        <div class="col-sm-12 col-md-6 class">
+          <h3>防府校</h3>
+          <div class="message">
+            2019年11月開校<br>
+            <a href="/class_hofu.html">防府校の詳細はこちら</a>
           </div>
-        </div>
-        <div class="thumbnail col-sm-12 col-md-4">
-          <img src="/img/thwoo-party_hofu1.jpg" width="100%" />
-        </div>
-        <div class="thumbnail col-sm-12 col-md-4">
-          <img src="/img/thwoo-party_hofu2.jpg" width="100%" />
-        </div>
-        <div class="thumbnail col-sm-12 col-md-4">
-          <img src="/img/thwoo-party_hofu3.jpg" width="100%" />
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <img src="/img/thwoo-party_appearance.jpg" width="100%" />
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <img src="/img/thwoo-party_map.png" width="100%" />
+          <img src="/img/thwoo-party_appearance.jpg" width="95%" />
+          <img src="/img/thwoo-party_map.png" width="95%" />
           <div class="message">
             防府市佐波２−９−２９<br />2階東側（階段上って左側）
           </div>
-        </div>
-        <div class="col-sm-4 offset-sm-4 col-md-6 offset-md-3">
           <button
             class="form_btn"
             type="button"
             onclick="clickEntryTrialButton();"
           >
-            防府校の無料体験を申し込む<br>
-            <span class="small">入力フォームが開きます</span>
+            防府校の無料体験を申し込む
           </button>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 class">
+            <h3>山口校（臨時）</h3>
+            <div class="message">
+              11月無料体験受付中<br>
+              <a href="/class_yamaguchi.html">山口校の詳細はこちら</a>
+            </div>
+            <img src="/img/class-yamaguchi.jpg" width="95%" />
+            <div class="message">
+              <a href="https://mirai365.jp/mirai/">山口市商店街mirai365</a>
+            </div>
+            <button
+              class="form_btn"
+              type="button"
+              onclick="clickTrialYamaguchi();"
+            >
+              山口校の無料体験を申し込む
+            </button>
+          </div>
+          <div class="col-sm-12 class">
+            <h3>オンライン校</h3>
+            <div class="message">
+              2021年1月開校予定<br>
+              <a href="/class_online.html">オンライン校の詳細はこちら</a>
+            </div>
+            <img src="/img/online-image.jpg" width="95%" />
+            <button
+              class="form_btn"
+              type="button"
+              onclick="clickTrialOnline();"
+            >
+              オンライン校の無料体験を申し込む
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -311,6 +320,14 @@
       function clickEntryTrialButton() {
         ga("send", "event", "button", "click", "entry_trial", 1);
         window.open("https://forms.gle/GiF5SwacCs6xLnbN8", "_blank");
+      }
+      function clickTrialYamaguchi() {
+        ga("send", "event", "button", "click", "entry_trial_yamaguchi", 1);
+        window.open("https://forms.gle/sxe45J37rK6cUnQdA", "_blank");
+      }
+      function clickTrialOnline() {
+        ga("send", "event", "button", "click", "entry_trial_online", 1);
+        window.open("https://forms.gle/nuM68G5nyDgGBEsJ7", "_blank");
       }
       function clickContactButton() {
         ga("send", "event", "button", "click", "contact", 1);

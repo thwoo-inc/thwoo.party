@@ -31,6 +31,12 @@ img {
   margin: 8px;
 }
 
+.class {
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  padding: 8px;
+}
+
 .logo {
   justify-content: center;
 }
