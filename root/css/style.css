@@ -89,6 +89,16 @@ img {
   margin: 16pt 0pt 16pt 0pt;
 }
 
+.form_btn_disabled {
+  border-radius: 5px;
+  background-color: #666;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 8pt;
+  margin: 16pt 0pt 16pt 0pt;
+}
+
 .group_wrapper {
   border: 2px solid #cccccc;
   border-radius: 8px;

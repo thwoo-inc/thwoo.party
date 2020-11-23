@@ -59,23 +59,46 @@
         <div class="col-sm-12">
 
           <h1>IT塾スオウパーティ山口</h1>
-          <img src="/img/shunan_pano.jpg" width="100%"/>
           <h2>小中学生向けプログラミング<br>無料体験会</h2>
-
-          <hr>
-        </div>
-        <div class="message col-sm-12">
-          at やまぐち創業応援スペース「mirai365」
-        </div>
-        <div class="col-sm-6 offset-sm-3 col-md-8 offset-md-2">
-          <img src="/img/mirai365.jpg" width="100%"/>
+          <div class="message col-sm-12">
+            at やまぐち創業応援スペース「mirai365」
+          </div>
+            <div class="col-sm-6 offset-sm-3 col-md-8 offset-md-2">
+            <img src="/img/mirai365.jpg" width="100%"/>
+          </div>
         </div>
 
         <hr>
+      </div>
+    </div>
 
+    <hr>
+
+    <div id="head" class="container">
+      <div class="row">
         <div class="message col-sm-12">
-          ↓スオウパーティー山口の<br>無料体験の様子です。
+          <h2>当日の様子です。</h2>
         </div>
+
+        <div class="thumbnail col-sm-12 col-md-6 ">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/Hab8AJdtSN0?controls=0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="thumbnail col-sm-12 col-md-6 ">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/cB3xbKczZGs?controls=0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
         <div class="thumbnail col-sm-12 col-md-6 ">
           <img src="/img/yamaguchi2.jpg" width="100%"/>
         </div>
@@ -88,15 +111,6 @@
         <div class="thumbnail col-sm-12 col-md-6 ">
           <img src="/img/yamaguchi9.jpg" width="100%"/>
         </div>
-      </div>
-    </div>
-    
-    <div class="thumbnail col-sm-12">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hab8AJdtSN0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="message">
-        scratchの使い方を解説
       </div>
     </div>
 
@@ -168,12 +182,12 @@
         </div>
         <div class="col-sm-6 offset-sm-3 col-md-8 offset-md-2">
           <button
-            class="form_btn"
+            class="form_btn_disabled"
             type="button"
+            disabled="true"
             onclick="clickEntryTrialButton();"
           >
-            山口校の無料体験を申し込む<br>
-            <span class="small">入力フォームが開きます</span>
+            山口校の無料体験は終了しました
           </button>
         </div>
       </div>
@@ -202,12 +216,12 @@
         <div class="col-sm-6 offset-sm-3 col-md-8 offset-md-2">
           <div class="message">プログラミングをたくさん教えてもらいましょう！</div>
           <button
-            class="form_btn"
+            class="form_btn_disabled"
             type="button"
+            disabled="true"
             onclick="clickEntryTrialButton();"
           >
-            山口校の無料体験を申し込む<br>
-            <span class="small">入力フォームが開きます</span>
+            山口校の無料体験は終了しました
           </button>
         </div>
       </div>
@@ -228,7 +242,7 @@
     <script type="text/javascript">
       function clickEntryTrialButton() {
         ga("send", "event", "button", "click", "entry_trial", 1);
-        window.open("https://forms.gle/PgamXBnZAAr5cfLL7", "_blank");
+        window.open("https://forms.gle/9AVGu1WcVaghdwjc9", "_blank");
       }
     </script>
     <script
